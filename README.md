@@ -25,8 +25,8 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
+(NOTE: The bug where the Tip Percentage isn't updated has been fixed)
 http://giphy.com/gifs/tip-guru-app-navneeth-jayendran-l3nW1522z2I2Xn3Gg
-<img src='http://giphy.com/gifs/tip-guru-app-navneeth-jayendran-l3nW1522z2I2Xn3Gg' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
