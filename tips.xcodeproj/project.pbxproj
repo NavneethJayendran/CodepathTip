@@ -14,6 +14,11 @@
 		86FF27A71C334E2A00661711 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86FF27A51C334E2A00661711 /* LaunchScreen.storyboard */; };
 		86FF27B21C334E2A00661711 /* tipsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86FF27B11C334E2A00661711 /* tipsTests.swift */; };
 		86FF27BD1C334E2A00661711 /* tipsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86FF27BC1C334E2A00661711 /* tipsUITests.swift */; };
+		86FF27CC1C3497CC00661711 /* decenct_tipper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 86FF27CB1C3497CC00661711 /* decenct_tipper.jpg */; };
+		86FF27CE1C3497D900661711 /* generosity.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 86FF27CD1C3497D900661711 /* generosity.jpeg */; };
+		86FF27D01C3497DF00661711 /* money-bags.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 86FF27CF1C3497DF00661711 /* money-bags.jpg */; };
+		86FF27D21C3497E400661711 /* Scrooge.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 86FF27D11C3497E400661711 /* Scrooge.jpg */; };
+		86FF27D41C36559700661711 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 86FF27D31C36559700661711 /* background.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		86FF27B81C334E2A00661711 /* tipsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tipsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		86FF27BC1C334E2A00661711 /* tipsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tipsUITests.swift; sourceTree = "<group>"; };
 		86FF27BE1C334E2A00661711 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86FF27CB1C3497CC00661711 /* decenct_tipper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = decenct_tipper.jpg; path = /Users/Niveditha/Documents/tips/tips/decenct_tipper.jpg; sourceTree = "<absolute>"; };
+		86FF27CD1C3497D900661711 /* generosity.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = generosity.jpeg; sourceTree = "<group>"; };
+		86FF27CF1C3497DF00661711 /* money-bags.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "money-bags.jpg"; sourceTree = "<group>"; };
+		86FF27D11C3497E400661711 /* Scrooge.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Scrooge.jpg; sourceTree = "<group>"; };
+		86FF27D31C36559700661711 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +107,7 @@
 		86FF279B1C334E2A00661711 /* tips */ = {
 			isa = PBXGroup;
 			children = (
+				86FF27CA1C34923F00661711 /* Images */,
 				86FF279C1C334E2A00661711 /* AppDelegate.swift */,
 				86FF279E1C334E2A00661711 /* ViewController.swift */,
 				86FF27A01C334E2A00661711 /* Main.storyboard */,
@@ -123,6 +134,18 @@
 				86FF27BE1C334E2A00661711 /* Info.plist */,
 			);
 			path = tipsUITests;
+			sourceTree = "<group>";
+		};
+		86FF27CA1C34923F00661711 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				86FF27D31C36559700661711 /* background.jpg */,
+				86FF27CD1C3497D900661711 /* generosity.jpeg */,
+				86FF27D11C3497E400661711 /* Scrooge.jpg */,
+				86FF27CF1C3497DF00661711 /* money-bags.jpg */,
+				86FF27CB1C3497CC00661711 /* decenct_tipper.jpg */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,9 +252,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86FF27CE1C3497D900661711 /* generosity.jpeg in Resources */,
 				86FF27A71C334E2A00661711 /* LaunchScreen.storyboard in Resources */,
 				86FF27A41C334E2A00661711 /* Assets.xcassets in Resources */,
+				86FF27CC1C3497CC00661711 /* decenct_tipper.jpg in Resources */,
+				86FF27D01C3497DF00661711 /* money-bags.jpg in Resources */,
+				86FF27D41C36559700661711 /* background.jpg in Resources */,
 				86FF27A21C334E2A00661711 /* Main.storyboard in Resources */,
+				86FF27D21C3497E400661711 /* Scrooge.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,6 +426,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = tips/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nothing.tips;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -409,6 +438,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = tips/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nothing.tips;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -482,6 +512,7 @@
 				86FF27C31C334E2A00661711 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		86FF27C41C334E2A00661711 /* Build configuration list for PBXNativeTarget "tipsTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +521,7 @@
 				86FF27C61C334E2A00661711 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		86FF27C71C334E2A00661711 /* Build configuration list for PBXNativeTarget "tipsUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +530,7 @@
 				86FF27C91C334E2A00661711 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
